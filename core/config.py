@@ -12,7 +12,10 @@ class Settings:
         load_dotenv(self.dotenv_file)
 
         self.DRIVER_PATH = get_key(self.dotenv_file, "DRIVER_PATH")
+        self.DRIVER_BASE_PATH = get_key(self.dotenv_file, "DRIVER_BASE_PATH")
         self.DEFAULT_PATH = get_key(self.dotenv_file, "DOWNLOAD_PATH")
+
+        # - Replace these with the base path(s) for your user(s).
         self.ALICIA = get_key(self.dotenv_file, "ALICIA_BASE_PATH")
         self.JACKSON = get_key(self.dotenv_file, "JACKSON_BASE_PATH")
 
