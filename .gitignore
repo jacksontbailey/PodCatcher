@@ -1,5 +1,16 @@
-# Created by https://www.toptal.com/developers/gitignore/api/python,venv
-# Edit at https://www.toptal.com/developers/gitignore?templates=python,venv
+# Created by https://www.toptal.com/developers/gitignore/api/python,database,venv
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,database,venv
+
+### Database ###
+*.accdb
+*.db
+*.dbf
+*.mdb
+*.pdb
+*.sql
+*.sqlite3
+*.db-shm
+*.db-wal
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -185,5 +196,5 @@ pyrightconfig.json
 pyvenv.cfg
 pip-selfcheck.json
 
-# End of https://www.toptal.com/developers/gitignore/api/python,venv
+# End of https://www.toptal.com/developers/gitignore/api/python,database,venv
 
