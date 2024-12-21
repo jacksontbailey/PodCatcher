@@ -1,9 +1,6 @@
 import os
-import ctypes
 import pyautogui
-import subprocess
 import time
-import keyboard
 
 from os import path
 from selenium import webdriver

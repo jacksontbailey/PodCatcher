@@ -1,4 +1,3 @@
-import mutagen
 import os
 import re
 
